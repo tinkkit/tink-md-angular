@@ -149,7 +149,7 @@ module.exports = function (grunt) {
 
   // Build task.
   grunt.registerTask('build', [
-    'test',
+    // 'test',
     'concat',
     'ngmin',
     'uglify',

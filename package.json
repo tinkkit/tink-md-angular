@@ -3,10 +3,10 @@
   "description": "Angular directive to render Markdown text. It's built on blazingly fast markdown parser 'marked'.",
   "version": "1.0.0",
   "license": "MIT",
-  "homepage": "https://github.com/tinkkit/tink-md-angular",
+  "homepage": "https://github.com/yaru22/angular-md",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tinkkit/tink-md-angular.git"
+    "url": "git://github.com/yaru22/angular-md.git"
   },
   "files": [
     "dist/",
@@ -35,11 +35,11 @@
     "grunt-contrib-uglify": "0.4.0",
     "grunt-contrib-watch": "0.5.3",
     "grunt-html2js": "0.2.4",
-    "grunt-karma": "0.6.2",
+    "grunt-karma": "0.10.1",
     "grunt-ngmin": "0.0.3",
     "grunt-open": "0.2.3",
     "grunt-release": "0.7.0",
-    "karma": "0.10.9",
+    "karma": "0.12.31",
     "karma-chrome-launcher": "*",
     "karma-mocha": "0.1",
     "matchdep": "0.3.0"

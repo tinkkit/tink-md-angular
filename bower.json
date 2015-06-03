@@ -32,6 +32,6 @@
     "jquery": "2.1.0"
   },
   "main": [
-    "dist/angular-md.js"
+    "dist/tink-md-angular.js"
   ]
 }

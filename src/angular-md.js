@@ -22,14 +22,14 @@ angular.module('yaru22.md', [
     link: function ($scope, $elem, $attrs, ngModel) {
       if($attrs.url){
         $templateRequest($attrs.url).then(function(template) {
-            var html = marked(template);
-            $elem.html(html);
-        }, 
+          var html = marked(template);
+          $elem.html(html);
+        },
         function() {
             console.warn('couldn\'t read url: '+$attrs.url);
           }
         );
-         return;
+        return;
       }else if (!ngModel) {
         // render transcluded text
         var html = marked($elem.text());
