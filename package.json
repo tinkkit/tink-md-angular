@@ -1,17 +1,12 @@
 {
-  "author": {
-    "name": "Brian Park",
-    "email": "yaru22@gmail.com"
-  },
-
-  "name": "angular-md",
+  "name": "tink-md-angular",
   "description": "Angular directive to render Markdown text. It's built on blazingly fast markdown parser 'marked'.",
   "version": "1.0.0",
   "license": "MIT",
-  "homepage": "https://github.com/yaru22/angular-md",
+  "homepage": "https://github.com/tinkkit/tink-md-angular",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yaru22/angular-md.git"
+    "url": "git://github.com/tinkkit/tink-md-angular.git"
   },
   "files": [
     "dist/",
