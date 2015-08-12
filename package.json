@@ -1,7 +1,7 @@
 {
   "name": "tink-md-angular",
   "description": "Angular directive to render Markdown text. It's built on blazingly fast markdown parser 'marked'.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
   "homepage": "https://github.com/tinkkit/tink-md-angular",
   "repository": {
