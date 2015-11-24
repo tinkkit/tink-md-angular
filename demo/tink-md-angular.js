@@ -1,6 +1,6 @@
 /**
  * Angular directive to render Markdown text. It's built on blazingly fast markdown parser 'marked'.
- * @version v1.1.1 - 2015-08-12
+ * @version v1.1.1 - 2015-11-24
  * @link https://github.com/tinkkit/tink-md-angular
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */
@@ -17,7 +17,8 @@ angular.module('yaru22.md', []).directive('md', [
           } else {
             return hljs.highlightAuto(code).value;
           }
-        }
+        },
+        headerPrefix: 'md-'
       });
     }
     return {

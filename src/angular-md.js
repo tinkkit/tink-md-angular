@@ -12,7 +12,8 @@ angular.module('yaru22.md', [
         } else {
           return hljs.highlightAuto(code).value;
         }
-      }
+      },
+      headerPrefix: 'md-'
     });
   }
 

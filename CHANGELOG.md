@@ -14,6 +14,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Security
 -->
 
+## [1.1.2] - 2015-11-24
+
+### Added
+- Added a prefix to the Marked options in order to fix a bug in the Tink Documentation
+
+
+
 ## [1.1.1] - 2015-08-12
 
 ### Changed
